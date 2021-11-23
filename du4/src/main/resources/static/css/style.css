@@ -1,0 +1,47 @@
+body{
+    background: #ffffff;
+}
+#empty-form{
+    height: 30%;
+    width: 100%;
+    text-align: center;
+}
+#empty-form-text{
+    color: red;
+    font-size: 600%;
+}
+
+#video-element{
+    background: black;
+    height: 50%;
+    width: 50%;
+}
+#video-box{
+    margin: 10%;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+#form-submit{
+    max-width: 100%;
+    overflow: hidden;
+    padding: 10 10px;
+}
+
+#form-all{
+    max-width: 100%;
+    margin: auto;
+    padding: 5 20px;
+    overflow: hidden;
+}
+.url-content{
+    padding: 2px 5px;
+    background: #ffffff;
+    color: black;
+    font-size: 300%;
+}
+
+#submit-button{
+    cursor: pointer;
+}

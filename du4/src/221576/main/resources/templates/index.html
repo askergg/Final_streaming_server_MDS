@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="cs" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" th:href="@{/css/style.css}" type="text/css">
+</head>
+<body>
+<div id="form-submit">
+    <form id="form-all" action="#" th:action="@{/player}" method="post">
+        <input class="url-content" type='text' name = 'video' placeholder="Zadej URL adresu streamu">
+        <input id="submit-button" class="url-content" type='submit' value='Přehrát'>
+    </form>
+</div>
+<div>
+    <h2>Linky na testování</h2>
+    <p>http://rdmedia.bbc.co.uk/dash/ondemand/testcard/1/client_manifest-events.mpd</p>
+    <p>http://rdmedia.bbc.co.uk/dash/ondemand/elephants_dream/1/client_manifest-all.mpd</p>
+    <p>https://dash.akamaized.net/akamai/bbb_30fps/bbb_30fps.mpd</p>
+</div>
+</body>
+</html>
