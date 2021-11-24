@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="cs" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" th:href="@{/css/style.css}" type="text/css">
+</head>
+<body>
+<div id="form-submit">
+    <form id="form-all" action="#" th:action="@{/player}" method="post">
+        Adresa:<br>
+        <input class="url-content" type='text' name = 'video' placeholder="Zadej URL adresu streamu"><br>
+        Název:<br>
+        <input class="url-content" type='text' name = 'video' placeholder="Zadej název"><br><br>
+        <input id="submit-button" class="url-content" type='submit' value='Odeslat'><br>
+    </form>
+</div>
